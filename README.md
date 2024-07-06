@@ -11,7 +11,7 @@ This repository includes:
    ```sh
    git clone https://github.com/yourusername/GIT.git
 
-2. **ead the Notes:**
+2. **Read the Notes:**
    ```sh
    GIT/note.txt
 
