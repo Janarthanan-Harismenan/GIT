@@ -11,7 +11,9 @@ This repository includes:
    ```sh
    git clone https://github.com/yourusername/GIT.git
 
-2. **cat GIT/note.txt**
+2. **cat**
+   ```sh
+   GIT/note.txt
 
 License
 MIT License
