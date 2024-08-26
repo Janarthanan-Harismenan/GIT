@@ -1,22 +1,40 @@
-# GIT Repository
+# 🚀 Learn Git by Terminal Commands
 
-This repository includes:
-- **learnGit**: Basic Git commands and concepts.
-- **learnGit Part-02**: Advanced Git usage.
-- **note.txt**: Summary of essential Git notes.
+## 📚 Things I Learned
 
-## Usage
+```bash
+# 👤 Set user information
+git config --global user.name "Janarthanan-Harismenan"
+git config --global user.email ""
 
-1. **Clone the Repository**:
-   ```sh
-   git clone https://github.com/yourusername/GIT.git
+# 📁 Clone repository and navigate to directory
+git clone https://github.com/ms-anomaly/rs-anomic.git
+cd React_To_Do_List
 
-2. **Read the Notes:**
-   ```sh
-   GIT/note.txt
+# ✅ Check status, add file, commit, and push
+git status
+git add text2.txt
+git commit -m "text2.txt file added"
+git push origin main
+git pull
+git pull origin main
 
-License
-MIT License
+# 🛠️ Initialize new repository, add files, set remote, and rename branch
+cd ..
+cd "LearGit Part 02"
+git init
+git add .
+git remote add origin https://github.com/Janarthanan-Harismenan/LearGit-Part-02.git
+git branch
+git branch -M main
 
+# 🌿 Work with branches
+git branch
+git branch -a
+git checkout -b branch-01
+git push origin branch-01
+git merge branch-01
+git push origin main
 
-Replace `https://github.com/yourusername/GIT.git` with the actual URL of your GitHub repository.
+# 🌱 Create new branch
+git branch branch-02
